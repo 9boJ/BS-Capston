@@ -4,3 +4,9 @@
 .dropdown-item{
     color:#ffffff;
 }
+.dropdown-menu{
+    padding-right: 0px;
+}
+.active{
+    color: rgb(255, 255, 255);
+}
