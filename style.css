@@ -10,20 +10,7 @@
 .active{
     color: rgb(255, 255, 255);
 }
-#img-carousel-home{
-    width: 100%;
-    height: 100%;
-}
-#demo{
-    width: 50%;
-    height: inherit;
-    position:fixed;
-    margin-left: 25%;
-}
 .btn-secondary{
     background-color: #00000000;
     border-color: #00000000;
-}
-svg:hover{
-    width: 10px;
 }
