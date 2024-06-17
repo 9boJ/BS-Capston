@@ -90,36 +90,15 @@
       </div>
     </div>
   </nav>
-  <div class="row justify-content-center ">
-    <div class="modal fade" role="dialog" tabindex="-1" id="simple-modal">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content"><button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-          <div class="modal-body"><img class="img-fluid" id="image" src="https://tourismchilliwack.com/wp-content/uploads/2022/12/District-1881-Carousel-13.jpg"></div>
-          <script>
-            (function (document) {
-        "use strict";
-        const ready = (callback) => {
-          if (document.readyState != "loading") callback();
-          else document.addEventListener("DOMContentLoaded", callback);
-        };
-        ready(() => {
-          const img = document.getElementById("image");
-          const simpleModal = document.getElementById("simple-modal");
-          simpleModal.addEventListener("show.bs.modal", (e) => {
-          const bigImage = e.relatedTarget.getAttribute('data-bigimage')
-          img.src = bigImage;
-          });
-        });
-      })(document);
-          </script>
-        </div>
-        
-      </div>
-      
-    </div>
-    
-</div>
-
+  <div class="d-flex justify-content-center">
+    <p class="h1">I am Jaitn</p>
+    <p class="h3"></p>
+  </div>
+  <div class=" d-flex justify-content-center fixed-bottom">
+    <img src="..." class="img-thumbnail" alt="Boys Grade Camping trip">
+    <img src="..." class="img-thumbnail" alt="Graduating 2024">
+    <img src="..." class="img-thumbnail" alt="Boys Grade cruise">
+  </div>
   <footer class="footer fixed-bottom bg-primary">
     <div class=" text-body-secondary">
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">

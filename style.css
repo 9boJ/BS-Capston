@@ -14,33 +14,12 @@
     background-color: #00000000;
     border-color: #00000000;
 }
-.btn-primary{
-    height: 300px;
-    width: 300px;
+.img-thumbnail{
+    height: 200px;
+    width: 200px;
     margin-bottom: 80px;
-    margin-right: -5px;
+    margin-right: 5px;
 }
-#simple-modal .modal-dialog {
-    max-width: 800px;
-    margin: 30px auto;
-  }
-  
-  #simple-modal .modal-body {
-    position: relative;
-    padding: 0px;
-    min-height: 400px;
-    background: #ccc;
-  }
-  
-  #simple-modal .btn-close {
-    position: absolute;
-    right: -60px;
-    top: -24px;
-    font-size: 1rem;
-    font-weight: normal;
-    opacity: 1;
-  }
-  
-  #image {
-    width: 100%;
-  }
+.h1{
+  color: #ffffff;
+}
