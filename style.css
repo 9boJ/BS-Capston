@@ -20,6 +20,12 @@
     margin-bottom: 80px;
     margin-right: 5px;
 }
-.h1{
+.h1, .h3{
+    margin-top: 10px;
   color: #ffffff;
+}
+.h3{
+    width: 99%;
+    margin: 10px;
+    margin-right: 20px;
 }
